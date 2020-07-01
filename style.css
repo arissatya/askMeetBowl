@@ -20,7 +20,7 @@ header{
 header:hover{
     color:black;
 }
-intro{
+.intro{
     /* font-family: 'Oswald', sans-serif; */
     font-size: 18px;
     color:white;
