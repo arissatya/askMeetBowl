@@ -1,10 +1,12 @@
 *{
     font-family: 'Oswald', sans-serif;
     background-color: dimgrey;
+    margin: 0;
+    padding: 0;
 }
 header{
-    font-family: 'Oswald', sans-serif;
-    font-size: 800px;
+    /* font-family: 'Oswald', sans-serif; */
+    font-size: 80px;
     color:white;
     text-shadow: gold;
     text-align: center;
@@ -14,4 +16,14 @@ header{
     /* position: relative; */
     /* height: 50px; */
     /* z-index: 10; */
+}
+header:hover{
+    color:black;
+}
+intro{
+    /* font-family: 'Oswald', sans-serif; */
+    font-size: 18px;
+    color:white;
+    text-shadow: gold;
+    text-align: center;
 }
