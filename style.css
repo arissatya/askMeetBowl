@@ -4,12 +4,14 @@
 }
 .mainHeader{
     font-family: 'Oswald', sans-serif;
-    font-size: 500px;
-    margin-left: auto;
-    margin-right: auto;
-    letter-spacing: 4px;
+    font-size: 800px;
     color:white;
-    position: relative;
-    height: 50px;
+    text-shadow: gold;
+    text-align: center;
+    /* margin-left: auto;
+    margin-right: auto; */
+    /* letter-spacing: 4px; */
+    /* position: relative; */
+    /* height: 50px; */
     /* z-index: 10; */
 }
