@@ -5,7 +5,7 @@
     padding: 0;   
 }
 body{
-    /* background: url(../finalProject/index.png) repeat-x; background-size: 120px; */
+    background: url(../finalProject/pattern.png) repeat; background-size: 200px;
     /* background: url(../finalProject/meatball.jpg) repeat-x; background-size: 120px; */
     background-position: 50%;
     background-position-x: 100px;
