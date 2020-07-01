@@ -1,40 +1,49 @@
 *{
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
     margin: 0;
     padding: 0;   
 }
 body{
-    text-align: center;
-    font-family: 'Oswald', sans-serif;
-    /* background-image: url(finalProject/index.png); */
-    background: #000000 url(/finalProject/index.png) no-repeat center center;
-    background-size: cover;
+    background: url(../finalProject/index.png) repeat-x; background-size: 120px;
+    background-position: 50%;
+    background-position-x: 100px;
+    background-position-y: 10px;
+    max-width: 100%;
+    height: 100%;
     background-color: rgb(255, 255, 255);
     margin: 0;
     padding: 0;
 }
 header{
-    /* font-family: 'Oswald', sans-serif; */
-/*     padding: 0; */
+    font-variant: common-ligatures;
     font-size: 80px;
     color:rgb(170, 0, 0);
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -80%)
-    /* letter-spacing: 4px; */
+    /* letter-spacing: 4px;
     /* display: inline-block; */
     /* margin-left: auto;
     margin-right: auto; */
     /* position: relative; */
     /* height: 50px; */
     /* z-index: 10; */
-}
+} */
 header:hover{
     color:rgb(255, 238, 0);
 }
-/* .a{
-
-} */
+.a{
+    text-decoration-color: ;
+    font-size: 30px;
+    text-decoration: auto;
+    font-family: inherit;
+    position: absolute;
+    top: 150px;
+/*     left: 100px; */
+    right: 250px;
+}
 .intro{
     /* font-family: 'Oswald', sans-serif; */
     font-size: 50px;
