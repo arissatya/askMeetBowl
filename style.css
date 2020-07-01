@@ -1,16 +1,24 @@
 *{
     font-family: 'Oswald', sans-serif;
-    background-color: dimgrey;
+    background-color: rgb(53, 53, 53);
     margin: 0;
     padding: 0;
+}
+body{
+    text-align: center;
 }
 header{
     /* font-family: 'Oswald', sans-serif; */
     padding: 0;
-    font-size: 80px;
+    font-size: 100px;
     color:white;
     text-shadow: gold;
-    text-align: center;
+    background-color: brown;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
+    /* display: inline-block; */
     /* margin-left: auto;
     margin-right: auto; */
     /* letter-spacing: 4px; */
@@ -23,8 +31,14 @@ header:hover{
 }
 .intro{
     /* font-family: 'Oswald', sans-serif; */
-    font-size: 18px;
+    font-size: 22px;
+    background-color: rgba(255, 235, 205, 0);
+    display: inline-block;
     color:white;
     text-shadow: gold;
     text-align: center;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%)
 }
