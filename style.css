@@ -5,7 +5,8 @@
     padding: 0;   
 }
 body{
-    background: url(../finalProject/index.png) repeat-x; background-size: 120px;
+    /* background: url(../finalProject/index.png) repeat-x; background-size: 120px; */
+    /* background: url(../finalProject/meatball.jpg) repeat-x; background-size: 120px; */
     background-position: 50%;
     background-position-x: 100px;
     background-position-y: 10px;
@@ -30,12 +31,36 @@ header{
     /* position: relative; */
     /* height: 50px; */
     /* z-index: 10; */
-} */
+}
 header:hover{
     color:rgb(255, 238, 0);
 }
+footer{
+    /* background: url(../finalProject/index.png) repeat-x; background-size: 120px; */
+    /* background: url(../finalProject/meatball.jpg) repeat-x; background-size: 120px; */
+    /* background-position: 50%;
+    background-position-x: 100px;
+    background-position-y: 10px;
+    max-width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255); */
+    position: absolute;
+    bottom: 50px;
+    left: 560px;
+    margin: 0;
+    padding: 0;
+}
+/* .img{
+    background-position: 50%;
+    background-position-x: 100px;
+    background-position-y: 10px;
+    max-width: 100%;
+    height: 100%;
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+} */
 .a{
-    text-decoration-color: ;
     font-size: 30px;
     text-decoration: auto;
     font-family: inherit;
