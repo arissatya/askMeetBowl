@@ -12,15 +12,15 @@ let bakso = [
     'Baso Cilok',
 ]
 let minuman = [
-    'Es Kelapa',
-    'Es Kelapa Muda',
-    'Es Kelapa Jeruk',
-    'Es Kelapa Kopyor',
-    'Es Jeruk',
-    'Es Teh',
-    'Es Soda Gembira',
-    'Teh Botol',
-    'Es Teh'
+    'Kalau minumnya Es Kelapa enak juga',
+    'Es Kelapa Muda bareng baso paling juara',
+    'Kalau minumannya Es Kelapa Jeruk, mix match luar biasa',
+    'Makan ditemani manis sirup Es Kelapa Kopyor ga bakal salah',
+    'Teman makan baso untuk yang suka berpetualang, minum Es Jeruk',
+    'Minum Es Teh, buat para garis lurus',
+    'Pesen minumnya Es Soda Gembira, biar hepi-hepi',
+    'Apapun baksonya, minumnya Teh Botol',
+    'Minum Es Teh tawar, hmm.. klasik'
 ]
 
 let click = document.getElementById("click")
@@ -32,7 +32,7 @@ click.addEventListener("click", function(){
     let urutan = Math.floor(Math.random()*bakso.length)
     let minum = Math.floor(Math.random()*minuman.length)
     click.innerText = bakso[urutan]
-    window.alert(`kamu mau minum ${minuman[minum]} ga?`);
+    window.alert(`${minuman[minum]}`);
 })
 
 // click.addEventListener("click", function(){
