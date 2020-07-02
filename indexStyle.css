@@ -73,6 +73,9 @@ footer{
     /* left: 40%; */
     /* transform: translate(-50%, 50%) */
 }
+.intro:hover{
+    cursor: help;
+}
 .more{
     position: relative;
 /*     right: 350px; */
@@ -81,11 +84,8 @@ footer{
 }
 .more:hover {
     /* background-color: blanchedalmond; */
-    -webkit-filter: grayscale(100%);
-    filter: grayscale(100%);
-    padding: 0px;
-    margin: 0px;
-    border: 0px;
+    cursor: pointer;
+
 }
 /* batas uji coba slideshow! */
 /* Slideshow container */
