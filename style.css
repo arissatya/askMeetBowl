@@ -18,21 +18,22 @@ body{
 }
 header{
     font-variant: common-ligatures;
-    font-size: 90px;
-    color:rgb(255, 255, 255);
-    position: absolute;
+    font-size: 50px;
+    color:#000000;
+    position: relative;
     text-align: center;
-    left: 10%;
-    right: 10%;
-    top: 35px;
+/*     left: 10%;
+    right: 10%; */
+    top: 55px;
 }
-header:hover{
+/* header:hover{
     color:rgb(100, 100, 100);
-}
+} */
 footer{
-    position: absolute;
-    bottom: 50px;
-    left: 560px;
+    position: relative;
+    top: 100px;
+/*     bottom: 50px; */
+/*     left: 560px; */
     margin: 0;
     padding: 0;
 }
@@ -47,29 +48,28 @@ footer{
     padding: 0;
 } */
 .a{
-    color:rgb(255, 255, 255);
-    font-size: 25px;
+    color:#000000;
+    font-size: 20px;
     text-decoration: auto;
     font-family: inherit;
     position: absolute;
-    top: 30px;
-    right: 250px;
+    top: 45px;
+    right: 370px;
 }
 .intro{
-    font-size: 50px;
+    font-size: 140px;
     color:rgb(255, 255, 255);
     margin: 0;
     padding: 0;
 /*     display: contents; */
-    text-decoration: none;
-    position: absolute;
-    top: 260px;
-    left: 40%;
+    position: relative;
+    top: 80px;
+/*     left: 40%; */
 /*     transform: translate(-50%, 50%) */
 }
-.intro :hover {
+/* .intro :hover {
     color: rgb(90, 90, 90)
-}
+} */
 /* ul{
     display: inline;
     color: rgb(255, 255, 255);
