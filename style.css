@@ -5,21 +5,24 @@
     padding: 0;   
 }
 body{
-    /* background: url(../finalProject/pattern.png) repeat; background-size: 200px; */
-    background: url(../finalProject/wood.jpg) no-repeat; background-size: 1330px;
-    background-position: initial;
+    /* background: url(../finalProject/wood.jpg) no-repeat; background-size: 1330px; */
+    /* background: url(../finalProject/Bakso1\(1\).jpg) no-repeat; background-size: 1300px; */
+    background: url(../finalProject/Bakso1\(edit1\).jpg) no-repeat; background-size: 1300px;
+    background-position: center;
 /*     background-position-x: 0px; */
 /*     background-position-y: -100px; */
     max-width: 100%;
     height: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: black;
     margin: 0;
     padding: 0;
 }
+
 header{
     font-variant: common-ligatures;
     font-size: 50px;
     color:#000000;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     position: relative;
     text-align: center;
 /*     left: 10%;
@@ -31,7 +34,7 @@ header{
 } */
 footer{
     position: relative;
-    top: 100px;
+    top: 120px;
 /*     bottom: 50px; */
 /*     left: 560px; */
     margin: 0;
@@ -49,6 +52,7 @@ footer{
 } */
 .a{
     color:#000000;
+    text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
     font-size: 20px;
     text-decoration: auto;
     font-family: inherit;
@@ -59,6 +63,7 @@ footer{
 .intro{
     font-size: 140px;
     color:rgb(255, 255, 255);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     margin: 0;
     padding: 0;
 /*     display: contents; */
