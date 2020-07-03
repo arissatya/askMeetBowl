@@ -11,7 +11,7 @@
 
 body{
     /* background: url(../finalProject/baksoBackground.jpg) no-repeat; background-size: 1300px; */
-    background-image: linear-gradient(rgba(65, 65, 65, 0.281), rgba(66, 66, 66, 0.137)),url(../askMeetBowl/baksoBackground.jpg);
+    background-image: linear-gradient(rgba(65, 65, 65, 0.281), rgba(66, 66, 66, 0.137)),url(../askMeetBowl/baksoBackground-min.jpg);
     /* background: url(../finalProject/untukBg2.jpg) no-repeat; background-size: 1330px; */
     /* background-image: linear-gradient(rgba(65, 65, 65, 0.281), rgba(66, 66, 66, 0.137)),url(../finalProject/untukBg2.jpg); */
     background-size: cover;
