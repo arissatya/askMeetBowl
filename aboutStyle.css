@@ -17,6 +17,7 @@ header{
   /* font-variant: common-ligatures; */
   /* font-family: 'MuseoModerno', cursive; */
   font-family: 'Fredoka One', cursive;
+  text-decoration: none;
   font-size: 28px;
   color:#000000;
   text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
@@ -25,6 +26,9 @@ header{
   /* left: 10%; */
   /* right: 10%; */
   top: -10px;
+}
+.klir{
+  text-decoration: none;
 }
 .logo{
   position: relative;
