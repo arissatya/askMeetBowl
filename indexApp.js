@@ -35,8 +35,7 @@ click.addEventListener("click", function(){
     window.alert(`${minuman[minum]}`);
 })
 
-//uji coba slideshow
-
+//UJI COBA BUAT SLIDESHOW!
 var slideIndex = 0;
 showSlides();
 
